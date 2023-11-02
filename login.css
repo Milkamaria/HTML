@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 103px;
+    height: 31px;
+    margin-top: 15px;
+    
+}
+
+.card{
+    width: 296px;
+    height: 240px;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px auto 25px auto;
+}
+ 
+.card h2{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.card h4{
+    font-weight: 400;
+}
+
+.card input{
+    width: 272px;
+    height: 25px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    background-color: #ddd;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+
+/* 
+.pswd a{
+    font-size: 12px;
+    position: relative;
+    font-weight: 400; 
+    padding: 0 8px 0 7px;
+    display:inline-block;
+    justify-content: center;
+} */
+
+.pswd input, a{
+    /* width: 10px;
+    height: 10px;
+    font-size: 12px;
+    position: relative;
+    font-weight: 400; 
+    padding: 0 8px 0 7px;
+    display:inline-block;
+    justify-content: center; */
+}
+
+
+.bt input{
+    width: 25%;
+    padding: 10px;
+    background-color: #f0c14b;
+    border: 0;
+    color: #111;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.new p{
+    font-size: 12px;
+    color: #767676;
+    position: relative;
+    font-weight: 400; 
+    background-color:#fff;
+    padding: 0 8px 0 7px;
+    display:inline-block;
+}
+
+
+.btn{
+    width: 348px;
+    height: 31px;
+    margin: 15px auto; 
+    background-color: #e7e9ec;
+    border: 1px solid;
+    background-image: linear-gradient(#f9f9fa, #e7e9ec);
+    border-top: #949494;
+    border-radius: 3px;
+    justify-content: center;
+}
+ 
+.new, .btn{
+    display: flex;
+    justify-content: center;
+}
+
+footer .links{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 25px auto 15px auto;
+}
+
+footer .links a{
+    font-size: 12px;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+    justify-content: center;
+}
